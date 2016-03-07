@@ -8,7 +8,7 @@
 
 
 /* lora-italic-latin */
-@font-face{
+@font-face {
     font-family: 'Lora', serif;
     font-weight: normal;
     font-style: italic;
@@ -60,8 +60,8 @@ body{
     font-family: 'Lora';
     hyphens: none
     -webkit-hyphens:none;
-    background-color: "#f0852f";
-    text-align: center;
+    background-color: #F0F8FF;
+    position: relative;
 }
 
 .img {
@@ -97,7 +97,7 @@ h1,h2,h3,h4{
     margin: 0;
 }
 
-h1{
+h1{ font-family: 'Lora', serif;
     font-size:1.8em;
     margin-bottom: 0.5em;
     color: #d2a8d4;
@@ -106,7 +106,7 @@ h1{
     page-break-before: always;
 }
 
-h2{
+h2{ font-family: 'Lora italic', serif;
     font-size: 1.2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
@@ -134,7 +134,7 @@ p {
 
 ul, ol, dl {
     margin: 1em 0 1em 0;
-    text-align: left;
+    text-align: center;
 }
 
 section.footnotes{
