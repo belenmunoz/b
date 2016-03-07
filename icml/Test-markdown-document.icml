@@ -24,7 +24,7 @@
           </TabList>
         </Properties>
       </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2" Name="Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2" LeftIndent="50" PointSize="30">
+      <ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2" Name="Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2" LeftIndent="90" PointSize="30">
         <Properties>
           <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
         </Properties>
@@ -59,9 +59,9 @@
     <Content>Shakespeare's Sonnets</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>26</Content>
+    <Content>25</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
