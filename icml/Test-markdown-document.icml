@@ -24,7 +24,12 @@
           </TabList>
         </Properties>
       </ParagraphStyle>
-      <ParagraphStyle Self="ParagraphStyle/Header2" Name="Header2" LeftIndent="0" PointSize="30">
+      <ParagraphStyle Self="ParagraphStyle/Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2" Name="Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2" LeftIndent="90" PointSize="30">
+        <Properties>
+          <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
+        </Properties>
+      </ParagraphStyle>
+      <ParagraphStyle Self="ParagraphStyle/Header1" Name="Header1" LeftIndent="0" PointSize="36">
         <Properties>
           <BasedOn type="object">$ID/NormalParagraphStyle</BasedOn>
         </Properties>
@@ -49,14 +54,14 @@
     <StoryPreference OpticalMarginAlignment="true" OpticalMarginSize="12" />
 
 <!-- body needs to be non-indented, otherwise code blocks are indented too far -->
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header1">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content># Shakespeare's Sonnets</Content>
+    <Content>Shakespeare's Sonnets</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
-<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Header2">
+<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Blockquote &gt; Header2">
   <CharacterStyleRange AppliedCharacterStyle="$ID/NormalCharacterStyle">
-    <Content>&gt; &gt; &gt; &gt; &gt; ## 25</Content>
+    <Content>25</Content>
   </CharacterStyleRange><Br />
 </ParagraphStyleRange>
 <ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/Paragraph">
