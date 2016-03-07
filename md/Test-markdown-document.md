@@ -1,22 +1,20 @@
-# Test markdown document
 
-# This is a H1 Header
-## This is a H2 Sub-header
-### This is a H3 Paragraph header
+# Shakespeare's Sonnets
+> > > ## 25
 
-Headers are created using the pound symbol (\#). A single # will create a header 1 (H1), 2 ## will create a header 2 (H2) and so on until H6. 
+Let those who are in favour with their stars,  
+Of public honour and proud titles boast,  
+Whilst I whom fortune of such triumph bars  
+Unlooked for joy in that I honour most;  
+Great princes' favourites their fair leaves spread,  
+But as the marigold at the sun's eye,  
+And in themselves their pride lies buried,  
+For at a frown they in their glory die.  
+The painful warrior famoused for fight,  
+After a thousand victories once foiled,  
+Is from the book of honour razed quite,  
+And all the rest forgot for which he toiled:  
+Then happy I that love and am beloved  
+Where I may not remove nor be removed.  
 
-This is a paragraph in markdown, it is simply text. Unlike html it has no tags like \<p> to show it is a paragraph. By adding * characters I can make this word *italic* and this **bold**.
-Markdown is a simple language that is easily converted to different outputs, which is why we use it in the hybrid publishing workflow.
 
-Footnotes look like this: \[^fn-sample_footnote]
-
-Clicking this number[^fn-sample_footnote] will lead you to a footnote.
-
-
-Images are inserted like this:
-\!\[](example.jpg)
-
-You can find more markdown syntax on the <a href="https://daringfireball.net/projects/markdown/syntax">daringfireball site</a>.
-
-[^fn-sample_footnote]: Handy! Now click the return link to go back.
