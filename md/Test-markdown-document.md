@@ -1,8 +1,6 @@
 
 # Shakespeare's Sonnets
----------------------------------------------
 > > > > > ## 25
----------------------------------------------
 
 Let those who are in favour with their stars,  
 Of public honour and proud titles boast,  
